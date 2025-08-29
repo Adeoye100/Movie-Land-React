@@ -55,7 +55,7 @@ const App = () => {
   const [iconsLoaded, setIconsLoaded] = useState(false);
 
   useEffect(() => {
-    searchMovies("Batman");
+    searchMovies("SpiderMan");
     // Check user's preferred color scheme
     if (window.matchMedia && window.matchMedia('(prefers-color-scheme: light)').matches) {
       setDarkMode(false);
